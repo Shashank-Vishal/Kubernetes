@@ -1,5 +1,5 @@
-FROM ubuntu:latest
-MAINTAINER dhadgevishal007@gmail.com
-RUN apt update -y
-RUN apt install httpd -y
+FROM centos:latest
+MAINTAINER shashank.patil942@gmail.com
+RUN yum update -y
+RUN yum install httpd -y
 
